@@ -222,6 +222,41 @@ export default function MemberEditorPage() {
                       className="w-full px-2.5 py-1 rounded-lg bg-alabaster border border-ink/15 font-mono text-[11px] text-ink focus:bg-white focus:border-royal"
                     />
                   </div>
+
+                  <div>
+                    <label className="block font-mono text-[10px] text-muted uppercase mb-0.5">
+                      Minat / Hobi (pisahkan koma)
+                    </label>
+                    <input
+                      type="text"
+                      value={(m.interests ?? []).join(", ")}
+                      placeholder="Futsal, Ngaji, Fotografi"
+                      onChange={(e) =>
+                        updateField(
+                          m.index,
+                          "interests",
+                          e.target.value
+                            .split(",")
+                            .map((s) => s.trim())
+                            .filter(Boolean)
+                        )
+                      }
+                      className="w-full px-2.5 py-1 rounded-lg bg-alabaster border border-ink/15 text-ink focus:bg-white focus:border-royal"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block font-mono text-[10px] text-muted uppercase mb-0.5">
+                      Cerita Yearbook
+                    </label>
+                    <textarea
+                      rows={2}
+                      value={m.story ?? ""}
+                      placeholder="Kesan & cerita singkat di PANDAWA..."
+                      onChange={(e) => updateField(m.index, "story", e.target.value)}
+                      className="w-full px-2.5 py-1 rounded-lg bg-alabaster border border-ink/15 text-ink focus:bg-white focus:border-royal resize-none"
+                    />
+                  </div>
                 </div>
               </div>
             ))}

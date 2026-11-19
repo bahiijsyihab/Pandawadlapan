@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import {
   BookOpen,
   ChevronLeft,
@@ -119,26 +120,24 @@ export function MemberProfileModal({
             </p>
           </div>
 
-          {/* Instagram Link */}
-          <div className="flex flex-wrap items-center justify-between gap-3 p-4 rounded-2xl border border-ink/10 bg-white">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-royal/10 text-royal flex items-center justify-center">
-                <Instagram className="w-5 h-5" />
-              </div>
-              <div>
-                <span className="block text-xs text-muted">Akun Instagram</span>
-                <span className="font-mono text-sm font-semibold text-ink">
-                  {member.instagram}
-                </span>
-              </div>
-            </div>
+          {/* Digital Yearbook Profile Link + Instagram */}
+          <div className="flex flex-col sm:flex-row gap-3">
+            <Link
+              href={`/anggota/${member.id}`}
+              className="flex-1 inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl bg-obsidian text-gold font-semibold text-sm hover:bg-abyss transition"
+            >
+              <BookOpen className="w-4 h-4" />
+              <span>Buka Halaman Digital Yearbook →</span>
+            </Link>
+
             <a
               href={`https://instagram.com/${igHandle}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-gold text-obsidian font-semibold text-xs hover:bg-gold-soft transition"
+              className="inline-flex items-center justify-center gap-2 px-4 py-3.5 rounded-2xl bg-gold text-obsidian font-semibold text-sm hover:bg-gold-soft transition shrink-0"
             >
-              <span>Kunjungi Profil</span>
+              <Instagram className="w-4 h-4" />
+              <span>{member.instagram}</span>
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
           </div>

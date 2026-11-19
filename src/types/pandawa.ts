@@ -10,6 +10,8 @@ export interface Member {
   photo_url: string;
   quote: string;
   instagram: string;
+  interests?: string[];
+  story?: string;
 }
 
 export interface AlbumPhoto {

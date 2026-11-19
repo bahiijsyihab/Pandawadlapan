@@ -6,5 +6,6 @@ next-env.d.ts
 .env*.local
 .vercel
 .netlify
+bahan/
 npm-debug.log*
 .DS_Store
