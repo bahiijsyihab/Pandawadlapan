@@ -1,0 +1,38 @@
+[
+  {
+    "id": "vid-aftermovie-01",
+    "title": "Official Aftermovie PANDAWA Angkatan 8",
+    "category": "Aftermovie",
+    "duration": "04:32",
+    "youtube_id": "dQw4w9WgXcQ",
+    "thumbnail_url": "/assets/videos/thumb-01.svg",
+    "description": "Rangkuman sinematik tiga tahun perjalanan 41 anggota PANDAWA — dari langkah pertama hingga puncak kebersamaan."
+  },
+  {
+    "id": "vid-profile-02",
+    "title": "Profil Angkatan: 41 Suara, 1 Visi",
+    "category": "Profil Angkatan",
+    "duration": "06:15",
+    "youtube_id": "ysz5S6PUM-U",
+    "thumbnail_url": "/assets/videos/thumb-02.svg",
+    "description": "Wawancara eksklusif bersama pengurus inti dan perwakilan kelas tentang makna di balik slogan United in Trust, Stronger Together."
+  },
+  {
+    "id": "vid-makrab-03",
+    "title": "Vlog Makrab PANDAWA 2026 — Di Bawah Langit Bintang",
+    "category": "Vlog Makrab",
+    "duration": "08:48",
+    "youtube_id": "jNQXAC9IVRw",
+    "thumbnail_url": "/assets/videos/thumb-03.svg",
+    "description": "Rekaman candid perjalanan, tawa di sekitar api unggun, hingga momen haru saling bertukar pesan masa depan."
+  },
+  {
+    "id": "vid-bts-04",
+    "title": "Behind The Scenes: Pemotretan Buku Tahunan",
+    "category": "Dokumentasi",
+    "duration": "03:54",
+    "youtube_id": "M7lc1UVf-VE",
+    "thumbnail_url": "/assets/videos/thumb-04.svg",
+    "description": "Keseruan di balik layar tim Media & Dokumentasi saat mengarahkan 41 anggota dalam pemotretan tema Royal Violet & Gold."
+  }
+]

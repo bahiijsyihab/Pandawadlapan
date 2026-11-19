@@ -1,0 +1,101 @@
+[
+  {
+    "id": "work-01",
+    "title": "Jejak Langkah Angkatan 8",
+    "category": "Karya Tulis",
+    "author_id": "pandawa-01",
+    "preview_url": "/assets/works/work-01.svg",
+    "content_type": "text",
+    "subtitle": "Puisi Refleksi Persaudaraan PANDAWA",
+    "year": "2026",
+    "content_body": "Di gerbang pagi yang masih berembun,\nEmpat puluh satu langkah datang membawa nama dan harap sendiri.\nTak saling mengenal, hanya disatukan oleh satu atap madrasah\ndan janji diam-diam untuk bertumbuh menjadi lebih baik.\n\nHari berganti semester, ujian datang silih berganti.\nDi ruang kelas yang hangat oleh diskusi,\ndi lapangan yang riuh oleh sorak sportivitas,\nkita belajar bahwa kuat bukan berarti berjalan paling depan sendirian,\nmelainkan memastikan tak satu pun sahabat tertinggal di belakang.\n\nSeperti segitiga terbalik yang kokoh menopang,\nseperti garis bercabang yang bertemu di satu muara,\nPANDAWA adalah bukti bahwa keberagaman warna\ndapat menjelma cahaya paling terang bila disatukan oleh kepercayaan.\n\nKelak, saat seragam ini kita lipat rapi dalam lemari kenangan,\nbiarlah slogan ini tetap berdenyut di setiap langkah kita:\nUnited in Trust, Stronger Together."
+  },
+  {
+    "id": "work-02",
+    "title": "Identitas Visual & Pedoman Logo PANDAWA 2.0",
+    "category": "Desain Visual",
+    "author_id": "pandawa-05",
+    "preview_url": "/assets/works/work-02.svg",
+    "content_type": "image",
+    "subtitle": "Brand Guidelines & Sistem Geometri Prisma",
+    "year": "2026",
+    "content_body": "/assets/works/work-02.svg"
+  },
+  {
+    "id": "work-03",
+    "title": "Harmoni Delapan — Anthem Instrumental PANDAWA",
+    "category": "Audio/Musik",
+    "author_id": "pandawa-12",
+    "preview_url": "/assets/works/work-03.svg",
+    "content_type": "audio",
+    "subtitle": "Komposisi Orisinal Akustik & Synth Ambient (00:18 Preview)",
+    "year": "2026",
+    "content_body": "/assets/audio/harmoni-delapan.wav"
+  },
+  {
+    "id": "work-04",
+    "title": "Arsitektur Portal Digital & Visualisasi 3D Angkatan",
+    "category": "Proyek",
+    "author_id": "pandawa-11",
+    "preview_url": "/assets/works/work-04.svg",
+    "content_type": "pdf",
+    "subtitle": "Dokumentasi Teknis & Blueprint Sistem Web Interaktif",
+    "year": "2026",
+    "content_body": "PROYEK INOVASI DIGITAL PANDAWA — RINGKASAN ARSITEKTUR\n\n1. Latar Belakang\nPortal Digital PANDAWA dirancang sebagai pusat arsip jangka panjang bagi 41 anggota Pasukan Angkatan 8 MA agar kenangan, karya tulis, desain visual, dan dokumentasi kegiatan tetap terdokumentasi rapi dan mudah diakses lintas perangkat.\n\n2. Inovasi Utama\n• Mesin Proyeksi 3D Native HTML5 Canvas 60fps tanpa ketergantungan library berat.\n• Sistem Direktori 41 Anggota dengan pencarian real-time & pemetaan relasi karya.\n• Lightbox Galeri Foto & Pemutar Media Multi-Format yang aksesibel via keyboard.\n\n3. Dampak & Keberlanjutan\nDengan struktur data JSON statis yang ringan, portal ini dapat di-host secara permanen dengan waktu muat cepat (< 2 detik) sebagai warisan digital Angkatan 8."
+  },
+  {
+    "id": "work-05",
+    "title": "Poster Editorial: Malam Keakraban 2026",
+    "category": "Desain Visual",
+    "author_id": "pandawa-30",
+    "preview_url": "/assets/works/work-05.svg",
+    "content_type": "image",
+    "subtitle": "Eksplorasi Tipografi Syne & Palet Royal Violet",
+    "year": "2026",
+    "content_body": "/assets/works/work-05.svg"
+  },
+  {
+    "id": "work-06",
+    "title": "Surat untuk Diri Kita Sepuluh Tahun Lagi",
+    "category": "Karya Tulis",
+    "author_id": "pandawa-08",
+    "preview_url": "/assets/works/work-06.svg",
+    "content_type": "text",
+    "subtitle": "Esai Editorial Buku Tahunan PANDAWA",
+    "year": "2026",
+    "content_body": "Jika sepuluh tahun dari hari ini kamu membuka kembali halaman ini di sela kesibukanmu, berhentilah sejenak dan tersenyumlah.\n\nIngatkah kamu pada sore-sore panjang menjelang persiapan lomba, saat kita berbagi gelas air minum dan tawa yang tak kunjung reda? Ingatkah kamu pada rasa gugup sebelum ujian akhir, yang mendadak luruh karena satu kalimat semangat dari teman sebangku?\n\nKita mungkin kini berpencar di berbagai kota, menekuni bidang yang berbeda-beda, dan memikul tanggung jawab yang jauh lebih besar. Namun di dalam diri kita, selalu ada jejak keberanian yang dulu kita tempa bersama di kelas XII.\n\nJangan pernah lupa bahwa kamu pernah menjadi bagian dari 41 jiwa yang saling percaya. Kapan pun dunia terasa berat, pulanglah sebentar ke kenangan ini — PANDAWA akan selalu menjadi rumah."
+  },
+  {
+    "id": "work-07",
+    "title": "Podcast Ruang 8: Cerita di Balik Layar Panitia",
+    "category": "Audio/Musik",
+    "author_id": "pandawa-27",
+    "preview_url": "/assets/works/work-07.svg",
+    "content_type": "audio",
+    "subtitle": "Episode Spesial Kabinet Pengurus — Cuplikan Audio",
+    "year": "2026",
+    "content_body": "/assets/audio/harmoni-delapan.wav"
+  },
+  {
+    "id": "work-08",
+    "title": "Katalog Kaligrafi & Geometris Modern",
+    "category": "Desain Visual",
+    "author_id": "pandawa-32",
+    "preview_url": "/assets/works/work-08.svg",
+    "content_type": "image",
+    "subtitle": "Perpaduan Khat Kontemporer & Ornamen Emas 24K",
+    "year": "2026",
+    "content_body": "/assets/works/work-08.svg"
+  },
+  {
+    "id": "work-09",
+    "title": "Sistem Pemantau Kas Transparan Angkatan",
+    "category": "Proyek",
+    "author_id": "pandawa-04",
+    "preview_url": "/assets/works/work-09.svg",
+    "content_type": "pdf",
+    "subtitle": "Studi Kasus Tata Kelola Keuangan Organisasi Pelajar",
+    "year": "2026",
+    "content_body": "LAPORAN INOVASI TATA KELOLA KAS PANDAWA\n\n1. Prinsip Transparansi\nSetiap pemasukan iuran rutin dan pengeluaran kegiatan (Makrab, Classmeeting, Buku Tahunan) dicatat secara real-time dan dilaporkan dalam ringkasan bulanan.\n\n2. Efisiensi Anggaran\n• Alokasi Dana Kegiatan Sosial & Solidaritas: 25%\n• Operasional Dokumentasi & Buku Tahunan: 45%\n• Dana Cadangan Alumni Angkatan 8: 30%\n\n3. Hasil\nMeningkatkan tingkat partisipasi kas hingga 100% dari 41 anggota dengan nol selisih pembukuan sepanjang masa bakti."
+  }
+]

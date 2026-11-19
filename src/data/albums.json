@@ -1,0 +1,62 @@
+[
+  {
+    "id": "album-study-campus-2026",
+    "title": "Study Campus — UNPAD & ITB",
+    "date": "17–18 November 2026",
+    "cover_url": "/assets/albums/study-campus-01.jpg",
+    "description": "Kunjungan kampus MA Al-Hikmah Putra Cirebon ke Universitas Padjadjaran dan Institut Teknologi Bandung beserta sesi outbound kebersamaan.",
+    "photos": [
+      {
+        "url": "/assets/albums/study-campus-01.jpg",
+        "caption": "Foto bersama seluruh rombongan Kunjungan Kampus ke UNPAD & ITB Bandung (17–18 November 2026)"
+      },
+      {
+        "url": "/assets/albums/study-campus-02.jpg",
+        "caption": "Sesi foto angkatan di lobi utama Rektorat Universitas Padjadjaran"
+      },
+      {
+        "url": "/assets/albums/study-campus-03.jpg",
+        "caption": "Keseruan sesi paintball & outbound kekompakan PANDAWA di Bandung"
+      }
+    ]
+  },
+  {
+    "id": "album-17-agustus-2026",
+    "title": "17 Agustus",
+    "date": "17 Agustus 2026",
+    "cover_url": "/assets/albums/17-agustus-01.jpg",
+    "description": "Peringatan Hari Kemerdekaan RI — kekompakan petugas upacara dan seluruh anggota PANDAWA di lapangan pesantren.",
+    "photos": [
+      {
+        "url": "/assets/albums/17-agustus-01.jpg",
+        "caption": "Foto bersama petugas upacara dan keluarga besar PANDAWA usai upacara 17 Agustus di Pesantren Al-Hikmah 2"
+      }
+    ]
+  },
+  {
+    "id": "album-setoran-terakhir-2026",
+    "title": "Setoran Terakhir",
+    "date": "2026",
+    "cover_url": "/assets/albums/setoran-terakhir-01.jpg",
+    "description": "Momen khidmat kebersamaan angkatan di masjid mengabadikan perjalanan ngaji dan setoran terakhir.",
+    "photos": [
+      {
+        "url": "/assets/albums/setoran-terakhir-01.jpg",
+        "caption": "Foto bersama seluruh anggota PANDAWA di masjid usai momen haru setoran terakhir"
+      }
+    ]
+  },
+  {
+    "id": "album-event-2026",
+    "title": "Event PANDAWA",
+    "date": "2026",
+    "cover_url": "/assets/albums/event-01.jpg",
+    "description": "Keseruan malam kebersamaan dan event olahraga angkatan di bawah sorot lampu lapangan pesantren.",
+    "photos": [
+      {
+        "url": "/assets/albums/event-01.jpg",
+        "caption": "Euforia malam bersama bendera Al-Hikmah usai rangkaian event angkatan PANDAWA"
+      }
+    ]
+  }
+]

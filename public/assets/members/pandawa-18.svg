@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#160A2C"/>
+      <stop offset="65%" stop-color="#3B0764"/>
+      <stop offset="100%" stop-color="#160A2C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.41" cy="0.35" r="0.65">
+      <stop offset="0%" stop-color="#5CE1E6" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#160A2C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="suit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2E1065"/>
+      <stop offset="100%" stop-color="#120724"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FBE38A"/>
+      <stop offset="50%" stop-color="#F7D046"/>
+      <stop offset="100%" stop-color="#C99A1A"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <rect width="400" height="500" fill="url(#glow)"/>
+  <g opacity="0.16" stroke="#5CE1E6" fill="none">
+    <circle cx="200" cy="215" r="145" stroke-width="1" stroke-dasharray="4 6"/>
+    <polygon points="200,360 95,155 305,155" stroke-width="1.2"/>
+  </g>
+  <g opacity="0.09" fill="#FFFFFF" font-family="system-ui,sans-serif" font-weight="800" font-size="140" text-anchor="middle">
+    <text x="200" y="295">MS</text>
+  </g>
+  <!-- Editorial studio silhouette -->
+  <g transform="translate(0,18)">
+    <ellipse cx="200" cy="196" rx="56" ry="64" fill="#1E1038" stroke="url(#gold)" stroke-opacity="0.45" stroke-width="1.5"/>
+    <path d="M84,482 C92,352 135,302 200,302 C265,302 308,352 316,482 Z" fill="url(#suit)" stroke="url(#gold)" stroke-opacity="0.4" stroke-width="1.5"/>
+    <path d="M168,306 L200,356 L232,306" fill="none" stroke="url(#gold)" stroke-width="2" stroke-opacity="0.75"/>
+    <polygon points="200,336 188,312 212,312" fill="url(#gold)" opacity="0.85"/>
+  </g>
+  <!-- Monogram badge -->
+  <g transform="translate(200,214)">
+    <text x="0" y="10" text-anchor="middle" fill="#F8F7F4" font-family="system-ui,sans-serif" font-weight="800" font-size="38" letter-spacing="2">MS</text>
+  </g>
+  <!-- Frame accents -->
+  <rect x="16" y="16" width="368" height="468" rx="14" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
+  <text x="32" y="46" fill="#F7D046" font-family="ui-monospace,monospace" font-size="13" font-weight="700" letter-spacing="2">PANDAWA // #18</text>
+  <text x="368" y="46" text-anchor="end" fill="#E2E8F0" fill-opacity="0.7" font-family="ui-monospace,monospace" font-size="11">XII Agama</text>
+</svg>
