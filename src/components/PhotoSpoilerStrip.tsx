@@ -56,7 +56,7 @@ export function PhotoSpoilerStrip({
               <button
                 type="button"
                 onClick={() => onOpenLightbox(featuredAlbum, 0)}
-                className="w-full group relative rounded-2xl overflow-hidden bg-black/45 backdrop-blur-2xl border border-white/15 hover:border-gold/70 shadow-[0_8px_32px_rgba(0,0,0,0.4)] transition-colors aspect-[16/10] lg:aspect-auto lg:min-h-[400px] text-left"
+                className="w-full group relative rounded-2xl overflow-hidden bg-black/45 backdrop-blur-md border border-white/15 hover:border-gold/70 shadow-[0_8px_32px_rgba(0,0,0,0.4)] transition-colors aspect-[16/10] lg:aspect-auto lg:min-h-[400px] text-left"
               >
                 <img
                   src={featuredAlbum.photos[0].url}
@@ -64,10 +64,10 @@ export function PhotoSpoilerStrip({
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-obsidian/85 via-obsidian/15 to-transparent" />
-                <div className="absolute top-4 left-4 px-3 py-1 rounded-lg bg-black/55 backdrop-blur-xl border border-white/15 font-mono text-[11px] text-gold">
+                <div className="absolute top-4 left-4 px-3 py-1 rounded-lg bg-black/55 backdrop-blur-md border border-white/15 font-mono text-[11px] text-gold">
                   {featuredAlbum.title.toUpperCase()} • {featuredAlbum.date}
                 </div>
-                <span className="absolute top-4 right-4 w-9 h-9 rounded-lg bg-black/55 backdrop-blur-xl border border-white/15 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <span className="absolute top-4 right-4 w-9 h-9 rounded-lg bg-black/55 backdrop-blur-md border border-white/15 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                   <Maximize2 className="w-4 h-4 text-gold" />
                 </span>
                 <div className="absolute bottom-5 left-5 right-5">
@@ -83,7 +83,7 @@ export function PhotoSpoilerStrip({
               <button
                 type="button"
                 onClick={() => onOpenLightbox(featuredAlbum, 2)}
-                className="group relative rounded-2xl overflow-hidden bg-black/45 backdrop-blur-2xl border border-white/15 hover:border-gold/70 shadow-[0_8px_32px_rgba(0,0,0,0.4)] transition-colors aspect-[16/10] lg:h-[210px] lg:aspect-auto text-left"
+                className="group relative rounded-2xl overflow-hidden bg-black/45 backdrop-blur-md border border-white/15 hover:border-gold/70 shadow-[0_8px_32px_rgba(0,0,0,0.4)] transition-colors aspect-[16/10] lg:h-[210px] lg:aspect-auto text-left"
               >
                 <img
                   src={featuredAlbum.photos[2].url}
@@ -104,7 +104,7 @@ export function PhotoSpoilerStrip({
               <button
                 type="button"
                 onClick={() => onOpenLightbox(featuredAlbum, 1)}
-                className="group relative rounded-2xl overflow-hidden bg-black/45 backdrop-blur-2xl border border-white/15 hover:border-gold/70 shadow-[0_8px_32px_rgba(0,0,0,0.4)] transition-colors aspect-[16/10] lg:h-[174px] lg:aspect-auto text-left"
+                className="group relative rounded-2xl overflow-hidden bg-black/45 backdrop-blur-md border border-white/15 hover:border-gold/70 shadow-[0_8px_32px_rgba(0,0,0,0.4)] transition-colors aspect-[16/10] lg:h-[174px] lg:aspect-auto text-left"
               >
                 <img
                   src={featuredAlbum.photos[1].url}

@@ -63,7 +63,7 @@ function MemberTiltCard({
       onMouseMove={handleMove}
       onMouseLeave={handleLeave}
       style={style}
-      className="group relative text-left rounded-2xl bg-black/45 backdrop-blur-2xl border border-white/15 hover:border-gold/55 hover:bg-white/[0.08] shadow-[0_8px_32px_rgba(0,0,0,0.4)] transition-all duration-200 overflow-hidden flex flex-col will-change-transform"
+      className="group relative text-left rounded-2xl bg-black/45 backdrop-blur-md border border-white/15 hover:border-gold/55 hover:bg-white/[0.08] shadow-[0_8px_32px_rgba(0,0,0,0.4)] transition-all duration-200 overflow-hidden flex flex-col will-change-transform"
     >
       <div
         aria-hidden="true"
@@ -179,7 +179,7 @@ export function MemberDirectory({
           {/* Planto High-Contrast Segmented Pill Switcher */}
           <div className="flex flex-wrap items-center gap-3">
             <div
-              className="inline-flex items-center p-1 rounded-full bg-black/50 backdrop-blur-xl border border-white/15"
+              className="inline-flex items-center p-1 rounded-full bg-black/50 backdrop-blur-md border border-white/15"
               role="group"
               aria-label="Mode tampilan direktori"
             >
@@ -211,7 +211,7 @@ export function MemberDirectory({
               </button>
             </div>
 
-            <div className="font-mono text-xs tracking-wider uppercase text-white bg-black/40 backdrop-blur-xl px-4 py-2 rounded-full border border-white/15">
+            <div className="font-mono text-xs tracking-wider uppercase text-white bg-black/40 backdrop-blur-md px-4 py-2 rounded-full border border-white/15">
               <span className="font-bold text-gold">{visibleMembers.length}</span> /{" "}
               <span className="font-bold">{filteredMembers.length}</span>
             </div>
@@ -219,7 +219,7 @@ export function MemberDirectory({
         </div>
 
         {/* Real-time Search & Class Filter Bar (Liquid Glass) */}
-        <div className="mb-8 p-4 rounded-2xl bg-black/40 backdrop-blur-xl border border-white/15 shadow-[inset_0_1px_0_rgba(255,255,255,0.1)] flex flex-col lg:flex-row gap-4 lg:items-center justify-between">
+        <div className="mb-8 p-4 rounded-2xl bg-black/40 backdrop-blur-md border border-white/15 shadow-[inset_0_1px_0_rgba(255,255,255,0.1)] flex flex-col lg:flex-row gap-4 lg:items-center justify-between">
           <div className="relative flex-1 max-w-xl">
             <Search className="w-4 h-4 text-white/50 absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none" />
             <input
@@ -296,7 +296,7 @@ export function MemberDirectory({
                       <button
                         type="button"
                         onClick={() => setViewMode("index")}
-                        className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-white/[0.06] backdrop-blur-xl border border-white/15 text-white font-medium text-sm hover:border-gold/50 hover:bg-white/[0.1] transition-all"
+                        className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-white/[0.06] backdrop-blur-md border border-white/15 text-white font-medium text-sm hover:border-gold/50 hover:bg-white/[0.1] transition-all"
                       >
                         <List className="w-4 h-4 text-gold" />
                         <span>Lihat Indeks Ringkas (41)</span>
@@ -325,7 +325,7 @@ export function MemberDirectory({
             </>
           ) : (
             /* COMPACT EDITORIAL INDEX (Liquid Glass) */
-            <div className="rounded-2xl bg-black/40 backdrop-blur-xl border border-white/15 shadow-[inset_0_1px_0_rgba(255,255,255,0.12)] overflow-hidden">
+            <div className="rounded-2xl bg-black/40 backdrop-blur-md border border-white/15 shadow-[inset_0_1px_0_rgba(255,255,255,0.12)] overflow-hidden">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 divide-y md:divide-y-0">
                 {filteredMembers.map((member) => {
                   const worksCount = workCountByAuthor[member.id] ?? 0;
@@ -374,7 +374,7 @@ export function MemberDirectory({
             </div>
           )
         ) : (
-          <div className="py-16 text-center rounded-2xl bg-black/40 backdrop-blur-xl border border-dashed border-white/20">
+          <div className="py-16 text-center rounded-2xl bg-black/40 backdrop-blur-md border border-dashed border-white/20">
             <p className="font-display text-lg text-white">
               Tidak ada anggota yang cocok dengan pencarian &ldquo;{query}&rdquo;
             </p>

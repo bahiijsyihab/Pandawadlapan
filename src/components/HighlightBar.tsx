@@ -12,14 +12,14 @@ export function HighlightBar() {
         {/* Planto-style Oval Brand Pill Divider */}
         <div className="flex items-center gap-5 mb-12">
           <div className="h-px flex-1 bg-white/15" />
-          <span className="px-6 py-1.5 rounded-full bg-white/[0.04] backdrop-blur-xl border border-white/15 font-display text-sm tracking-widest uppercase text-gold">
+          <span className="px-6 py-1.5 rounded-full bg-white/[0.04] backdrop-blur-md border border-white/15 font-display text-sm tracking-widest uppercase text-gold">
             PANDAWA • 08
           </span>
           <div className="h-px flex-1 bg-white/15" />
         </div>
 
         {/* Clean High-Contrast Editorial Metrics inside Liquid Glass Container */}
-        <div className="rounded-2xl bg-black/45 backdrop-blur-2xl border border-white/15 shadow-[0_8px_32px_rgba(0,0,0,0.4)] p-8 sm:p-10 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-0 md:divide-x divide-white/12">
+        <div className="rounded-2xl bg-black/45 backdrop-blur-md border border-white/15 shadow-[0_8px_32px_rgba(0,0,0,0.4)] p-8 sm:p-10 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-0 md:divide-x divide-white/12">
           <div className="md:pr-10">
             <span className="font-display text-6xl sm:text-7xl text-gold leading-none">
               41

@@ -58,8 +58,8 @@ export function Navbar() {
         aria-label="Navigasi Utama PANDAWA"
         className={`pointer-events-auto mx-auto max-w-7xl rounded-2xl transition-all duration-300 ${
           scrolled
-            ? "bg-black/45 backdrop-blur-2xl border border-white/15 shadow-[0_8px_32px_rgba(0,0,0,0.4)]"
-            : "bg-black/45 backdrop-blur-2xl border border-white/15 shadow-[0_8px_32px_rgba(0,0,0,0.4)]"
+            ? "bg-black/45 backdrop-blur-md border border-white/15 shadow-[0_8px_32px_rgba(0,0,0,0.4)]"
+            : "bg-black/45 backdrop-blur-md border border-white/15 shadow-[0_8px_32px_rgba(0,0,0,0.4)]"
         }`}
       >
         <div className="flex items-center justify-between px-4 sm:px-5 h-16">

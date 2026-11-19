@@ -95,7 +95,7 @@ export function PhilosophyInspector() {
             <div
               onMouseMove={handleMouseMove}
               onMouseLeave={handleMouseLeave}
-              className="relative h-full min-h-[420px] sm:min-h-[480px] perspective-1000 rounded-2xl bg-black/45 backdrop-blur-2xl border border-white/15 shadow-[0_8px_32px_rgba(0,0,0,0.4)] p-8 flex flex-col items-center justify-center overflow-hidden"
+              className="relative h-full min-h-[420px] sm:min-h-[480px] perspective-1000 rounded-2xl bg-black/45 backdrop-blur-md border border-white/15 shadow-[0_8px_32px_rgba(0,0,0,0.4)] p-8 flex flex-col items-center justify-center overflow-hidden"
             >
               {/* Subtle architectural hairline crosshair */}
               <div
@@ -163,7 +163,7 @@ export function PhilosophyInspector() {
                     setLockedLayer((prev) => (prev === item.id ? null : item.id))
                   }
                   aria-pressed={lockedLayer === item.id}
-                  className={`w-full text-left py-6 px-5 sm:px-7 rounded-2xl backdrop-blur-2xl border transition-all duration-200 flex items-start gap-6 sm:gap-8 ${
+                  className={`w-full text-left py-6 px-5 sm:px-7 rounded-2xl backdrop-blur-md border transition-all duration-200 flex items-start gap-6 sm:gap-8 ${
                     isActive
                       ? "bg-black/55 text-white border-gold/60 shadow-[0_8px_32px_rgba(0,0,0,0.45)]"
                       : "bg-black/45 text-white border-white/15 hover:bg-white/[0.08] hover:border-white/30 shadow-[0_8px_32px_rgba(0,0,0,0.4)]"

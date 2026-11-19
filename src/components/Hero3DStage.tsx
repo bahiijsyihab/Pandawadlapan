@@ -259,7 +259,8 @@ export function Hero3DStage() {
     }));
 
     const resize = () => {
-      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      const mobile = window.innerWidth < 768;
+      const dpr = mobile ? Math.min(window.devicePixelRatio || 1, 1.25) : Math.min(window.devicePixelRatio || 1, 1.75);
       const rect = canvas.getBoundingClientRect();
       canvas.width = Math.max(1, Math.floor(rect.width * dpr));
       canvas.height = Math.max(1, Math.floor(rect.height * dpr));
@@ -425,11 +426,13 @@ export function Hero3DStage() {
             const cometIdx = Math.floor((((time * 0.28 + offset) % 1) + 1) % 1 * steps);
             const cp = pts[cometIdx];
             if (behind ? cp.z > 0 : cp.z <= 0) {
-              ctx.fillStyle = `rgba(${colorRgb}, 1)`;
-              ctx.shadowColor = `rgba(${colorRgb}, 0.95)`;
-              ctx.shadowBlur = 16;
+              ctx.fillStyle = `rgba(${colorRgb}, 0.28)`;
               ctx.beginPath();
-              ctx.arc(cp.x, cp.y, 3.3, 0, Math.PI * 2);
+              ctx.arc(cp.x, cp.y, 7.5, 0, Math.PI * 2);
+              ctx.fill();
+              ctx.fillStyle = `rgba(${colorRgb}, 1)`;
+              ctx.beginPath();
+              ctx.arc(cp.x, cp.y, 3.0, 0, Math.PI * 2);
               ctx.fill();
             }
           }
@@ -499,15 +502,18 @@ export function Hero3DStage() {
           ctx.stroke();
 
           const radius = Math.max(1.5, s.size * s.scale);
-          ctx.save();
+          if (!behind) {
+            ctx.fillStyle = s.color;
+            ctx.globalAlpha = 0.22;
+            ctx.beginPath();
+            ctx.arc(s.x, s.y, radius * 2.2, 0, Math.PI * 2);
+            ctx.fill();
+          }
           ctx.fillStyle = s.color;
-          ctx.shadowColor = s.color;
-          ctx.shadowBlur = behind ? 4 : 14;
-          ctx.globalAlpha = behind ? 0.4 : 0.98;
+          ctx.globalAlpha = behind ? 0.38 : 0.96;
           ctx.beginPath();
           ctx.arc(s.x, s.y, radius, 0, Math.PI * 2);
           ctx.fill();
-          ctx.restore();
         }
         ctx.globalAlpha = 1;
       };
@@ -617,25 +623,18 @@ export function Hero3DStage() {
       polys.sort((a, b) => b.avgZ - a.avgZ);
 
       for (const poly of polys) {
-        ctx.save();
         ctx.beginPath();
         poly.pts.forEach((p, idx) => {
           if (idx === 0) ctx.moveTo(p.x, p.y);
           else ctx.lineTo(p.x, p.y);
         });
         ctx.closePath();
-        if (poly.glow) {
-          ctx.shadowColor = "rgba(247, 208, 70, 0.42)";
-          ctx.shadowBlur = 22;
-        }
         ctx.fillStyle = poly.fill;
         ctx.fill();
-        ctx.shadowBlur = 0;
         ctx.strokeStyle = poly.stroke;
         ctx.lineWidth = poly.lineWidth;
         ctx.lineJoin = "miter";
         ctx.stroke();
-        ctx.restore();
       }
 
       drawGyroRing(2.05, 0.34, 0.22, 0.16, "247, 208, 70", false, true);
@@ -779,7 +778,7 @@ export function Hero3DStage() {
       {/* ZONE 3 (BOTTOM): Liquid Glass Segmented Pill Camera Dock */}
       <div className="relative z-10 mx-auto max-w-7xl w-full px-4 flex flex-col items-center gap-2 shrink-0">
         <div
-          className="inline-flex items-center gap-1 p-1 rounded-full bg-black/45 backdrop-blur-2xl border border-white/15 shadow-[0_8px_32px_rgba(0,0,0,0.4)]"
+          className="inline-flex items-center gap-1 p-1 rounded-full bg-black/45 backdrop-blur-md border border-white/15 shadow-[0_8px_32px_rgba(0,0,0,0.4)]"
           role="group"
           aria-label="Preset Kamera 3D"
         >

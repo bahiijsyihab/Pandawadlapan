@@ -107,7 +107,7 @@ export function CabinetStructure({ members, onSelectMember }: CabinetStructurePr
                   key={pos.memberId}
                   type="button"
                   onClick={() => onSelectMember(member)}
-                  className={`group text-left flex-1 rounded-2xl p-6 sm:p-7 backdrop-blur-2xl border transition-all flex flex-col justify-between gap-6 shadow-[0_8px_32px_rgba(0,0,0,0.4)] ${
+                  className={`group text-left flex-1 rounded-2xl p-6 sm:p-7 backdrop-blur-md border transition-all flex flex-col justify-between gap-6 shadow-[0_8px_32px_rgba(0,0,0,0.4)] ${
                     isTop
                       ? "bg-black/50 text-white border-gold/45 hover:border-gold hover:bg-white/[0.08]"
                       : "bg-black/45 text-white border-white/15 hover:border-gold/50 hover:bg-white/[0.08]"
@@ -158,7 +158,7 @@ export function CabinetStructure({ members, onSelectMember }: CabinetStructurePr
           {/* Right Column (7 cols — deeper staggered offset [76, -76]) */}
           <ParallaxLayer
             offsetY={76}
-            className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 border border-white/15 rounded-2xl overflow-hidden bg-black/45 backdrop-blur-2xl shadow-[0_8px_32px_rgba(0,0,0,0.4)] divide-y sm:divide-y-0"
+            className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 border border-white/15 rounded-2xl overflow-hidden bg-black/45 backdrop-blur-md shadow-[0_8px_32px_rgba(0,0,0,0.4)] divide-y sm:divide-y-0"
           >
             {COORDINATORS.map((pos, i) => {
               const member = resolveMember(pos);

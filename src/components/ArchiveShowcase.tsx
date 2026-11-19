@@ -93,7 +93,7 @@ export function ArchiveShowcase({
           <div
             role="tablist"
             aria-label="Kategori Arsip PANDAWA"
-            className="inline-flex flex-wrap p-1.5 rounded-full bg-black/50 backdrop-blur-xl border border-white/15 text-white w-fit"
+            className="inline-flex flex-wrap p-1.5 rounded-full bg-black/50 backdrop-blur-md border border-white/15 text-white w-fit"
           >
             {[
               { id: "albums" as const, label: "Album Foto", icon: FolderOpen, count: albums.length },
@@ -154,7 +154,7 @@ export function ArchiveShowcase({
                       <button
                         type="button"
                         onClick={() => setSelectedAlbum(album)}
-                        className="w-full group text-left rounded-2xl bg-black/45 backdrop-blur-2xl border border-white/15 hover:border-gold/60 overflow-hidden transition-all flex flex-col shadow-[0_8px_32px_rgba(0,0,0,0.4)]"
+                        className="w-full group text-left rounded-2xl bg-black/45 backdrop-blur-md border border-white/15 hover:border-gold/60 overflow-hidden transition-all flex flex-col shadow-[0_8px_32px_rgba(0,0,0,0.4)]"
                       >
                       <div className="relative aspect-[16/10] w-full overflow-hidden bg-obsidian">
                         <img
@@ -195,7 +195,7 @@ export function ArchiveShowcase({
             ) : (
               /* Opened Album Photo Gallery */
               <div className="space-y-6 animate-panel-in">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-5 rounded-2xl bg-black/40 backdrop-blur-xl border border-white/15">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-5 rounded-2xl bg-black/40 backdrop-blur-md border border-white/15">
                   <div className="flex items-center gap-4">
                     <button
                       type="button"
@@ -222,7 +222,7 @@ export function ArchiveShowcase({
                       key={photo.url}
                       type="button"
                       onClick={() => onOpenLightbox(selectedAlbum, idx)}
-                      className="group text-left rounded-2xl bg-black/40 backdrop-blur-xl border border-white/15 hover:border-gold/60 overflow-hidden transition-all duration-300 hover:-translate-y-1 flex flex-col"
+                      className="group text-left rounded-2xl bg-black/40 backdrop-blur-md border border-white/15 hover:border-gold/60 overflow-hidden transition-all duration-300 hover:-translate-y-1 flex flex-col"
                     >
                       <div className="relative aspect-[16/10] w-full overflow-hidden bg-obsidian">
                         <img
@@ -260,7 +260,7 @@ export function ArchiveShowcase({
                 key={video.id}
                 type="button"
                 onClick={() => onOpenVideo(video)}
-                className="group text-left rounded-2xl bg-black/40 backdrop-blur-xl border border-white/15 hover:border-gold/60 hover:bg-white/[0.07] shadow-[inset_0_1px_0_rgba(255,255,255,0.12)] overflow-hidden transition-all duration-300 hover:-translate-y-1 flex flex-col"
+                className="group text-left rounded-2xl bg-black/40 backdrop-blur-md border border-white/15 hover:border-gold/60 hover:bg-white/[0.07] shadow-[inset_0_1px_0_rgba(255,255,255,0.12)] overflow-hidden transition-all duration-300 hover:-translate-y-1 flex flex-col"
               >
                 <div className="relative aspect-video w-full overflow-hidden bg-obsidian">
                   <img
@@ -316,7 +316,7 @@ export function ArchiveShowcase({
                     className={`px-4 py-2 rounded-full font-mono text-xs font-semibold transition-all ${
                       active
                         ? "bg-gold text-obsidian"
-                        : "bg-black/40 backdrop-blur-xl text-white/80 hover:bg-white/[0.1] hover:text-white border border-white/15"
+                        : "bg-black/40 backdrop-blur-md text-white/80 hover:bg-white/[0.1] hover:text-white border border-white/15"
                     }`}
                   >
                     {cat}
@@ -332,7 +332,7 @@ export function ArchiveShowcase({
                 return (
                   <article
                     key={work.id}
-                    className="group rounded-2xl bg-black/40 backdrop-blur-xl border border-white/15 hover:border-gold/60 hover:bg-white/[0.07] shadow-[inset_0_1px_0_rgba(255,255,255,0.12)] overflow-hidden transition-all duration-300 hover:-translate-y-1 flex flex-col"
+                    className="group rounded-2xl bg-black/40 backdrop-blur-md border border-white/15 hover:border-gold/60 hover:bg-white/[0.07] shadow-[inset_0_1px_0_rgba(255,255,255,0.12)] overflow-hidden transition-all duration-300 hover:-translate-y-1 flex flex-col"
                   >
                     <button
                       type="button"
